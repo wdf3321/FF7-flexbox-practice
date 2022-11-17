@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(./ff7_flexbox/bg-full.jpg) no-repeat;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 90%;
+	height: 85%;
+	/* margin: auto; */
+	/* background: #333; */
+	display: flex;
+	flex-direction: row;
+}
+.col1 {
+	display: flex;
+	color: #fff;
+	width: 50%;
+	height: 100%;
+	flex-wrap: wrap;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(./ff7_flexbox/main.jpg);
+  background-size: cover;
+  background-position: center center;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-blend-mode: multiply
+	
+	
+}
+.col1 img {
+	width: 20vw;
+	height: 45vh;
+	margin-top: 7rem;
+}
+.col1 p{
+width: 25vw;
+}
+
+
+.col2 {
+	height:100%;
+	width: 50%;
+	background: #ddd;
+	display: flex;
+	flex-direction: column;
+  
+}
+
+.col11 {
+	height: 45%;
+	width: 95%;
+	padding:2.5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: space-around;
+	background:#aaa;
+}
+.col11 p {
+	width: 50%;
+	height: 50%;
+	
+}
+
+.col11 h1{
+	padding-right: 21rem;
+}
+.col22 {
+	height: 45%;
+	width: 95%;
+	padding: 2.5%;
+	display: flex;
+	background: url(./ff7_flexbox/tifa.png)no-repeat 3% 100% / 33%,
+	#000;;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: space-around;
+	color: #fff;
+	
+}
+.col22 p {
+	width: 50%;
+	margin-left: 5rem;
+	
+}
+.col22 h1{
+	width: 50%;
+	margin-left: 5rem;
+}
+.col2 img {
+	width: 15vw;
+	height: 30vh;
+	
+}
+
